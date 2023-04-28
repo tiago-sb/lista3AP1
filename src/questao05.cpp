@@ -3,17 +3,17 @@
 using namespace std;
 
 int main(){
-	int i, c;
-	char s = 'n';
-	while(s != 's'){
+	int idade, cont;
+	char fim = 'n';
+	while(fim != 's'){
 		cout << "insira a idade do aluno: ";
-		cin >> i;
+		cin >> idade;
 		cout << "Voce nos informou a idade de todos os alunos? ";
-		cin >> s;
-		if(i >= 25){
-			c++;
+		cin >> fim;
+		if(idade <= 25){
+			cont++;
 		}
 	}
-	cout << "O total de alunos que possuem (25+) eh: " << c << endl;
+	cout << "O total de alunos que possuem (25-) eh: " << cont << endl;
 	return 0;
 }
