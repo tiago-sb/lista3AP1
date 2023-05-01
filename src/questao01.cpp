@@ -12,7 +12,8 @@ int main() {
             cout << m << endl;
             m++;
         }
-    } else {
+    }
+    else {
         m--;
         while(m > n){
             cout << m << endl;
