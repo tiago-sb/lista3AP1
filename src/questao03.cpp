@@ -3,9 +3,9 @@
 using namespace std;
 
 int main(){
-    int v, a = 0, b = 1, aux = 1;
+    int v, a = 0, b = 1, aux = 1, i = 0;
     cin >> v;
-    for(int i = 0;i < v;i++){
+    for(i;i < v;i++){
         cout << aux << " ";
         aux = a + b;
         a = b;
